@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-07-10T12:34:46.645591",
+    "startedAt": "2023-07-10T12:34:45.702373",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/NightSky/NightSky.ipynb",
+    "root": "/Users/ishevchuk/Desktop/NightSky",
+    "git": {
+        "remote": "https://github.com/iszewczuk/NightSky.git",
+        "commit": "03d17ced6e040bc08061a87f07323ae0465ae15a"
+    },
+    "email": "ishevchuk@griddynamics.com",
+    "host": "C12110",
+    "username": "ishevchuk",
+    "executable": "/Users/ishevchuk/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 116.55632019042969
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

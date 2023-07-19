@@ -1,0 +1,452 @@
+2023-07-10 13:28:49,437 INFO    StreamThr :48732 [internal.py:wandb_internal():86] W&B internal server running at pid: 48732, started at: 2023-07-10 13:28:49.433497
+2023-07-10 13:28:49,441 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status
+2023-07-10 13:28:49,444 INFO    WriterThread:48732 [datastore.py:open_for_write():85] open: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/run-dcgc2gur.wandb
+2023-07-10 13:28:49,448 DEBUG   SenderThread:48732 [sender.py:send():369] send: header
+2023-07-10 13:28:49,541 DEBUG   SenderThread:48732 [sender.py:send():369] send: run
+2023-07-10 13:28:50,256 INFO    SenderThread:48732 [dir_watcher.py:__init__():211] watching files in: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files
+2023-07-10 13:28:50,257 INFO    SenderThread:48732 [sender.py:_start_run_threads():1100] run started: dcgc2gur with start time 1688988529.430273
+2023-07-10 13:28:50,266 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:28:50,267 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:28:50,272 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: check_version
+2023-07-10 13:28:50,272 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: check_version
+2023-07-10 13:28:50,440 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: run_start
+2023-07-10 13:28:50,443 DEBUG   HandlerThread:48732 [system_info.py:__init__():31] System info init
+2023-07-10 13:28:50,443 DEBUG   HandlerThread:48732 [system_info.py:__init__():46] System info init done
+2023-07-10 13:28:50,443 INFO    HandlerThread:48732 [system_monitor.py:start():181] Starting system monitor
+2023-07-10 13:28:50,443 INFO    SystemMonitor:48732 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-10 13:28:50,443 INFO    HandlerThread:48732 [system_monitor.py:probe():201] Collecting system info
+2023-07-10 13:28:50,443 DEBUG   HandlerThread:48732 [system_info.py:probe():195] Probing system
+2023-07-10 13:28:50,444 INFO    SystemMonitor:48732 [interfaces.py:start():190] Started cpu monitoring
+2023-07-10 13:28:50,444 INFO    SystemMonitor:48732 [interfaces.py:start():190] Started disk monitoring
+2023-07-10 13:28:50,444 INFO    SystemMonitor:48732 [interfaces.py:start():190] Started memory monitoring
+2023-07-10 13:28:50,444 INFO    SystemMonitor:48732 [interfaces.py:start():190] Started network monitoring
+2023-07-10 13:28:50,445 DEBUG   HandlerThread:48732 [system_info.py:_probe_git():180] Probing git
+2023-07-10 13:28:50,553 DEBUG   HandlerThread:48732 [system_info.py:_probe_git():188] Probing git done
+2023-07-10 13:28:50,553 DEBUG   HandlerThread:48732 [system_info.py:probe():240] Probing system done
+2023-07-10 13:28:50,553 DEBUG   HandlerThread:48732 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.10.9', 'heartbeatAt': '2023-07-10T11:28:50.443948', 'startedAt': '2023-07-10T11:28:49.411897', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Desktop/NightSky/NightSky.ipynb', 'root': '/Users/ishevchuk/Desktop/NightSky', 'git': {'remote': 'https://github.com/iszewczuk/NightSky.git', 'commit': '03d17ced6e040bc08061a87f07323ae0465ae15a'}, 'email': 'ishevchuk@griddynamics.com', 'host': 'C12110', 'username': 'ishevchuk', 'executable': '/Users/ishevchuk/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 460.4317207336426, 'used': 116.45818328857422}, 'memory': {'total': 16.0}}
+2023-07-10 13:28:50,553 INFO    HandlerThread:48732 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-10 13:28:50,554 INFO    HandlerThread:48732 [system_monitor.py:probe():214] Publishing system info
+2023-07-10 13:28:50,554 DEBUG   HandlerThread:48732 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-10 13:28:50,555 DEBUG   HandlerThread:48732 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-10 13:28:50,555 DEBUG   HandlerThread:48732 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-10 13:28:51,260 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/conda-environment.yaml
+2023-07-10 13:28:51,261 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:28:51,261 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/requirements.txt
+2023-07-10 13:28:56,103 DEBUG   HandlerThread:48732 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-10 13:28:56,104 INFO    HandlerThread:48732 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-10 13:28:56,104 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:28:56,104 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-10 13:28:56,105 DEBUG   SenderThread:48732 [sender.py:send():369] send: files
+2023-07-10 13:28:56,105 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-10 13:28:56,119 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:28:56,119 DEBUG   SenderThread:48732 [sender.py:send():369] send: telemetry
+2023-07-10 13:28:56,120 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:28:56,294 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/conda-environment.yaml
+2023-07-10 13:28:56,294 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-metadata.json
+2023-07-10 13:28:56,688 INFO    wandb-upload_0:48732 [upload_job.py:push():133] Uploaded file /var/folders/_t/v7tb441j7_l32mrtl8d_nr7r0000gn/T/tmpkafs1ceiwandb/nr7vgora-wandb-metadata.json
+2023-07-10 13:29:01,381 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:04,309 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:04,310 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:04,311 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:04,312 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:04,333 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:05,361 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:05,362 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:05,362 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:05,363 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:06,339 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:06,341 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:06,341 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:06,341 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:06,342 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:07,347 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:07,467 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:07,468 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:07,468 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:07,468 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:08,352 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:08,534 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:08,534 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:08,535 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:08,535 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:09,357 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:09,693 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:09,694 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:09,694 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:09,694 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:10,363 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:10,878 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:10,879 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:10,879 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:10,881 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:11,123 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:29:11,124 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:29:11,368 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:12,050 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:12,051 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:12,051 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:12,052 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:12,374 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:13,055 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:13,056 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:13,056 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:13,057 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:13,058 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:13,379 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:18,078 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:18,282 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:18,283 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:18,283 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:18,284 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:18,405 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:19,269 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:19,269 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:19,269 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:19,270 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:19,410 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:22,891 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:22,892 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:22,892 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:22,893 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:23,433 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:23,902 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:24,186 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:24,186 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:24,186 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:24,187 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:24,438 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/config.yaml
+2023-07-10 13:29:24,438 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:25,205 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:25,206 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:25,206 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:25,207 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:25,444 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:26,129 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:29:26,129 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:29:26,210 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:26,295 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:26,296 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:26,297 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:26,449 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:27,308 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:27,309 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:27,309 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:27,309 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:27,455 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:28,267 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:28,267 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:28,267 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:28,268 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:28,458 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:29,266 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:29,266 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:29,266 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:29,266 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:29,267 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:29,464 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:32,654 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:32,655 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:32,655 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:32,656 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:33,485 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:34,665 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:34,920 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:34,920 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:34,920 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:34,921 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:35,496 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:35,955 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:35,956 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:35,956 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:35,956 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:36,502 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:36,916 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:36,916 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:36,917 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:36,917 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:37,507 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:37,886 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:37,887 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:37,887 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:37,887 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:38,511 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:38,886 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:38,886 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:38,886 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:38,887 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:39,517 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:39,847 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:39,848 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:39,848 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:39,848 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:39,848 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:40,522 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:40,853 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:40,854 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:40,854 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:40,854 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:41,133 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:29:41,133 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:29:41,528 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:41,874 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:41,874 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:41,874 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:41,875 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:42,534 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:42,844 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:42,844 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:42,844 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:42,845 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:43,540 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:43,792 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:43,792 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:43,792 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:43,793 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:44,545 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:44,766 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:44,767 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:44,767 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:44,767 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:45,548 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:45,772 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:49,393 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:49,394 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:49,394 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:49,394 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:49,564 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:50,450 DEBUG   SystemMonitor:48732 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-10 13:29:50,453 DEBUG   SenderThread:48732 [sender.py:send():369] send: stats
+2023-07-10 13:29:51,458 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:51,817 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:51,818 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:51,818 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:51,818 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:52,582 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:54,472 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:54,473 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:54,473 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:54,473 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:54,589 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:55,571 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:55,571 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:55,571 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:55,572 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:55,595 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:56,139 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:29:56,140 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:29:56,977 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:56,978 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:56,978 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:56,978 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:29:56,980 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:57,603 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:29:59,572 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:29:59,573 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:29:59,574 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:29:59,575 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:29:59,610 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:00,996 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:00,997 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:00,997 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:00,998 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:01,618 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:02,003 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:30:06,359 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:06,360 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:06,360 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:06,360 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:06,642 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:07,334 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:07,334 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:07,334 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:07,334 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:30:07,335 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:07,648 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:08,305 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:08,305 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:08,306 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:08,306 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:08,653 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:09,243 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:09,244 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:09,244 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:09,245 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:09,659 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:10,485 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:10,485 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:10,485 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:10,486 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:10,664 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:11,144 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-10 13:30:11,145 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: stop_status
+2023-07-10 13:30:11,449 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:11,452 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:11,452 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:11,453 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:11,669 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:12,408 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:12,409 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:12,409 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:12,409 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:30:12,409 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:12,675 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:13,365 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:13,365 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:13,366 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:13,366 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:13,680 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:14,383 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:14,384 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:14,384 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:14,385 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:14,686 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:15,355 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:15,356 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:15,356 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:15,357 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:15,696 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:16,432 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:16,433 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:16,433 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:16,433 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:16,699 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:17,389 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:17,390 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:17,390 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:17,390 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:17,703 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:18,395 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:30:20,455 DEBUG   SenderThread:48732 [sender.py:send():369] send: stats
+2023-07-10 13:30:21,348 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-10 13:30:21,349 DEBUG   SenderThread:48732 [sender.py:send():369] send: history
+2023-07-10 13:30:21,349 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: summary_record
+2023-07-10 13:30:21,349 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:21,723 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:21,741 DEBUG   SenderThread:48732 [sender.py:send():369] send: telemetry
+2023-07-10 13:30:21,744 DEBUG   SenderThread:48732 [sender.py:send():369] send: exit
+2023-07-10 13:30:21,744 INFO    SenderThread:48732 [sender.py:send_exit():574] handling exit code: 0
+2023-07-10 13:30:21,745 INFO    SenderThread:48732 [sender.py:send_exit():576] handling runtime: 91
+2023-07-10 13:30:21,745 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:21,745 INFO    SenderThread:48732 [sender.py:send_exit():582] send defer
+2023-07-10 13:30:21,746 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,746 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-10 13:30:21,746 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,746 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-10 13:30:21,746 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 1
+2023-07-10 13:30:21,747 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,747 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-10 13:30:21,747 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,747 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-10 13:30:21,747 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 2
+2023-07-10 13:30:21,747 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,747 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-10 13:30:21,747 INFO    HandlerThread:48732 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-10 13:30:21,747 INFO    HandlerThread:48732 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-10 13:30:21,747 DEBUG   SystemMonitor:48732 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-10 13:30:21,748 INFO    HandlerThread:48732 [interfaces.py:finish():202] Joined disk monitor
+2023-07-10 13:30:21,748 DEBUG   SystemMonitor:48732 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-10 13:30:21,748 INFO    HandlerThread:48732 [interfaces.py:finish():202] Joined memory monitor
+2023-07-10 13:30:21,749 INFO    HandlerThread:48732 [interfaces.py:finish():202] Joined network monitor
+2023-07-10 13:30:21,749 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,749 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-10 13:30:21,749 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 3
+2023-07-10 13:30:21,749 DEBUG   SenderThread:48732 [sender.py:send():369] send: stats
+2023-07-10 13:30:21,749 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,749 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-10 13:30:21,749 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,749 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-10 13:30:21,749 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 4
+2023-07-10 13:30:21,750 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,750 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-10 13:30:21,750 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,750 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-10 13:30:21,750 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 5
+2023-07-10 13:30:21,750 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,750 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-10 13:30:21,750 DEBUG   SenderThread:48732 [sender.py:send():369] send: summary
+2023-07-10 13:30:21,751 INFO    SenderThread:48732 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-10 13:30:21,752 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,752 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-10 13:30:21,752 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 6
+2023-07-10 13:30:21,752 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:21,752 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-10 13:30:21,752 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:21,752 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-10 13:30:21,757 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: status_report
+2023-07-10 13:30:22,388 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 7
+2023-07-10 13:30:22,388 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:22,389 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-10 13:30:22,389 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:22,389 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-10 13:30:22,389 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 8
+2023-07-10 13:30:22,389 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:22,389 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-10 13:30:22,390 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:22,390 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-10 13:30:22,390 INFO    SenderThread:48732 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-10 13:30:22,399 INFO    SenderThread:48732 [job_builder.py:build():259] run is notebook based run
+2023-07-10 13:30:22,402 INFO    SenderThread:48732 [job_builder.py:build():264] is repo sourced job
+2023-07-10 13:30:22,424 INFO    SenderThread:48732 [job_builder.py:build():305] adding wandb-job metadata file
+2023-07-10 13:30:22,456 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 9
+2023-07-10 13:30:22,457 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:22,457 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-10 13:30:22,457 DEBUG   SenderThread:48732 [sender.py:send():369] send: artifact
+2023-07-10 13:30:22,729 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/config.yaml
+2023-07-10 13:30:22,729 INFO    Thread-38 :48732 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:22,751 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-10 13:30:23,745 INFO    SenderThread:48732 [sender.py:send_artifact():1450] sent artifact job-https___github.com_iszewczuk_NightSky.git_Desktop_NightSky_NightSky.ipynb - {'id': 'QXJ0aWZhY3Q6NTA5Mjg3NTE1', 'digest': 'c78dd9ecd13e6022563b1c47c20f6e77', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_iszewczuk_NightSky.git_Desktop_NightSky_NightSky.ipynb', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_iszewczuk_NightSky.git_Desktop_NightSky_NightSky.ipynb', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjgxMDk3Mzc4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTA5Mjg3NTE1', 'versionIndex': 2}}, 'version': 'v2'}
+2023-07-10 13:30:23,745 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:23,745 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-10 13:30:23,745 INFO    SenderThread:48732 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-10 13:30:24,741 INFO    SenderThread:48732 [dir_watcher.py:finish():389] scan: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files
+2023-07-10 13:30:24,743 INFO    SenderThread:48732 [dir_watcher.py:finish():403] scan save: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/requirements.txt requirements.txt
+2023-07-10 13:30:24,744 INFO    SenderThread:48732 [dir_watcher.py:finish():403] scan save: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/config.yaml config.yaml
+2023-07-10 13:30:24,751 INFO    SenderThread:48732 [dir_watcher.py:finish():403] scan save: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json wandb-summary.json
+2023-07-10 13:30:24,752 INFO    SenderThread:48732 [dir_watcher.py:finish():403] scan save: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/conda-environment.yaml conda-environment.yaml
+2023-07-10 13:30:24,765 INFO    SenderThread:48732 [dir_watcher.py:finish():403] scan save: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-metadata.json wandb-metadata.json
+2023-07-10 13:30:24,765 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 10
+2023-07-10 13:30:24,769 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: poll_exit
+2023-07-10 13:30:24,770 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:24,770 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-10 13:30:24,772 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:24,772 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-10 13:30:24,772 INFO    SenderThread:48732 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-10 13:30:25,248 INFO    wandb-upload_1:48732 [upload_job.py:push():133] Uploaded file /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/config.yaml
+2023-07-10 13:30:25,344 INFO    wandb-upload_0:48732 [upload_job.py:push():133] Uploaded file /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/requirements.txt
+2023-07-10 13:30:25,628 INFO    wandb-upload_2:48732 [upload_job.py:push():133] Uploaded file /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/wandb-summary.json
+2023-07-10 13:30:25,666 INFO    wandb-upload_3:48732 [upload_job.py:push():133] Uploaded file /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/files/conda-environment.yaml
+2023-07-10 13:30:25,872 INFO    Thread-37 (_thread_body):48732 [sender.py:transition_state():602] send defer: 11
+2023-07-10 13:30:25,873 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:25,874 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-10 13:30:25,874 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:25,874 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-10 13:30:25,874 INFO    SenderThread:48732 [file_pusher.py:join():164] waiting for file pusher
+2023-07-10 13:30:25,874 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 12
+2023-07-10 13:30:25,875 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:25,875 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-10 13:30:25,875 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:25,875 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-10 13:30:26,560 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 13
+2023-07-10 13:30:26,561 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:26,561 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-10 13:30:26,562 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:26,562 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-10 13:30:26,562 INFO    SenderThread:48732 [sender.py:transition_state():602] send defer: 14
+2023-07-10 13:30:26,563 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: defer
+2023-07-10 13:30:26,563 DEBUG   SenderThread:48732 [sender.py:send():369] send: final
+2023-07-10 13:30:26,564 INFO    HandlerThread:48732 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-10 13:30:26,564 DEBUG   SenderThread:48732 [sender.py:send():369] send: footer
+2023-07-10 13:30:26,564 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: defer
+2023-07-10 13:30:26,565 INFO    SenderThread:48732 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-10 13:30:26,572 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-10 13:30:26,572 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: server_info
+2023-07-10 13:30:26,573 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-10 13:30:26,573 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: poll_exit
+2023-07-10 13:30:26,573 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-10 13:30:26,574 DEBUG   SenderThread:48732 [sender.py:send_request():396] send_request: server_info
+2023-07-10 13:30:26,752 DEBUG   HandlerThread:48732 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-10 13:30:26,753 INFO    HandlerThread:48732 [handler.py:finish():854] shutting down handler
+2023-07-10 13:30:27,577 INFO    WriterThread:48732 [datastore.py:close():298] close: /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_132849-dcgc2gur/run-dcgc2gur.wandb
+2023-07-10 13:30:27,750 INFO    SenderThread:48732 [sender.py:finish():1526] shutting down sender
+2023-07-10 13:30:27,751 INFO    SenderThread:48732 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-10 13:30:27,751 INFO    SenderThread:48732 [file_pusher.py:join():164] waiting for file pusher

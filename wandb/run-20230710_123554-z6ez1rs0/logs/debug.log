@@ -1,0 +1,45 @@
+2023-07-10 12:35:54,496 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-10 12:35:54,497 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Configure stats pid to 97150
+2023-07-10 12:35:54,497 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from /Users/ishevchuk/.config/wandb/settings
+2023-07-10 12:35:54,497 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from /Users/ishevchuk/Desktop/NightSky/wandb/settings
+2023-07-10 12:35:54,497 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-10 12:35:54,497 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_123554-z6ez1rs0/logs/debug.log
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_123554-z6ez1rs0/logs/debug-internal.log
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:init():547] calling init triggers
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:init():596] starting backend
+2023-07-10 12:35:54,498 INFO    MainThread:97150 [wandb_init.py:init():600] setting up manager
+2023-07-10 12:35:54,500 INFO    MainThread:97150 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-10 12:35:54,501 INFO    MainThread:97150 [wandb_init.py:init():606] backend started and connected
+2023-07-10 12:35:54,514 INFO    MainThread:97150 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-10 12:35:54,515 INFO    MainThread:97150 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-10 12:35:54,515 INFO    MainThread:97150 [wandb_init.py:init():705] updated telemetry
+2023-07-10 12:35:54,595 INFO    MainThread:97150 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-10 12:35:56,572 INFO    MainThread:97150 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-10 12:35:56,742 WARNING MsgRouterThr:97150 [router.py:message_loop():77] message_loop has been closed
+2023-07-10 12:36:26,700 INFO    MainThread:97150 [wandb_init.py:init():789] starting run threads in backend
+2023-07-10 12:36:56,928 INFO    MainThread:97150 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-10 12:36:56,931 INFO    MainThread:97150 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-10 12:36:56,931 INFO    MainThread:97150 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-10 12:36:56,932 INFO    MainThread:97150 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-10 12:36:56,934 INFO    MainThread:97150 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-10 12:45:16,325 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Configure stats pid to 97150
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from /Users/ishevchuk/.config/wandb/settings
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from /Users/ishevchuk/Desktop/NightSky/wandb/settings
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_124516-ddnao1n7/logs/debug.log
+2023-07-10 12:45:16,327 INFO    MainThread:97150 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ishevchuk/Desktop/NightSky/wandb/run-20230710_124516-ddnao1n7/logs/debug-internal.log
+2023-07-10 12:45:16,328 INFO    MainThread:97150 [wandb_init.py:init():547] calling init triggers
+2023-07-10 12:45:16,328 INFO    MainThread:97150 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-10 12:45:16,328 INFO    MainThread:97150 [wandb_init.py:init():571] re-initializing run, found existing run on stack: z6ez1rs0
+2023-07-10 12:45:16,332 INFO    MainThread:97150 [wandb_run.py:_finish():1887] finishing run ishevchuk/NightSky/z6ez1rs0
+2023-07-10 12:45:16,332 INFO    MainThread:97150 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-10 12:45:16,333 INFO    MainThread:97150 [wandb_run.py:_restore():2104] restore
+2023-07-10 12:45:16,334 INFO    MainThread:97150 [wandb_run.py:_restore():2110] restore done
